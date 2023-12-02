@@ -1,6 +1,6 @@
 {
   "functions": {
-    "data/**/*.js": {
+    "data/index.js": {
       "runtime": "vercel-node@2.5.0"
     }
   }
