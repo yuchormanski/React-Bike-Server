@@ -1,0 +1,15 @@
+{
+  "name": "react-bike-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch data/api.json -m ./node_modules/json-server-auth --port 8000 --delay 500"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4",
+    "json-server-auth": "^2.1.0"
+  }
+}
