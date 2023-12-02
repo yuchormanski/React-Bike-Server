@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "json-server --watch data/api.json -m ./node_modules/json-server-auth --port 8000 --delay 500"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",

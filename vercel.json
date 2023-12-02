@@ -1,7 +1,15 @@
 {
-  "functions": {
-    "data/**/*.js": {
-      "runtime": "vercel-node@2.5.0"
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
     }
-  }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.js"
+    }
+  ]
 }
